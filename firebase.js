@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDKYSg9wLbXabv1TWUWEOXrEpx9gj8Wlaw",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "employee-authentication-d0e1e.firebaseapp.com",
   databaseURL: "https://employee-authentication-d0e1e-default-rtdb.firebaseio.com",
   projectId: "employee-authentication-d0e1e",
