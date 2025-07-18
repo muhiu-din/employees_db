@@ -9,7 +9,7 @@ const port = 3000
 await mongoose.connect('mongodb://localhost:27017/Dummyd');
 app.use(express.json());
 
-tend
+
 app.use(cors({
   origin: ["http://localhost:5173", "https://employees-db.vercel.app"],
   credentials: true
